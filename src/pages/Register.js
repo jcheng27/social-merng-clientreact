@@ -82,7 +82,7 @@ function Register(props) {
 		      	name='password'  
 	            value={values.password}
  				onChange={onChange}
-	            type="text"
+	            type="password"
 	          
 		      />
 		    </Form.Field>
@@ -92,7 +92,7 @@ function Register(props) {
 		      	name='confirmPassword'  
 	            value={values.confirmPassword}
 	            onChange={onChange}
-	            type="text"
+	            type="password"
 	         
 		      />
 		    </Form.Field>		    

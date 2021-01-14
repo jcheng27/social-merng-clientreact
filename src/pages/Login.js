@@ -55,7 +55,7 @@ function Login(props) {
 		      	name='password'  
 	            value={values.password}
  				onChange={onChange}
-	            type="text"
+	            type="password"
 	          
 		      />
 		    </Form.Field>
